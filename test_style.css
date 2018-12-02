@@ -1,28 +1,47 @@
 html, body {
     height: 100%;
 }
-html {
-    display: table;
-    margin: auto;
-    background-color: black;
+
+html{
+  background-color: #D24043;
 }
-body {
-    display: table-cell;
-    vertical-align: middle;
-}
+
 @font-face {
     font-family: "KIWANO-APPLE";
     src: url("fonts/kiwano-apple.otf")
 }
-h1{
-  color: pink;
-  font-size: 48px;
-  font-family: KIWANO-APPLE;
-  text-align: center;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "KIWANO-APPLE";
+    font-size: 22pt;
+    background-color: #D24043;
 }
-p{
-  color: teal;
-  font-size: 22px;
-  font-family: KIWANO-APPLE;
-  text-align: center;
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FFFF33;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }

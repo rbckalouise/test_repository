@@ -1,0 +1,12 @@
+html {
+  background-color: #D24043;
+}
+
+@font-face {
+    font-family: "KIWANO-APPLE";
+    src: url("fonts/kiwano-apple.otf")
+}
+p {
+      font-family: "KIWANO-APPLE";
+      color: white;
+}
